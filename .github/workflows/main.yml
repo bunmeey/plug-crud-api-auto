@@ -25,4 +25,4 @@ jobs:
         run: npm install
 
       - name: Run API tests
-        run: npx cypress run --headless --config-file cypress.jsconfig.js
+        run: npx cypress run --headless --config-file cypress.config.js
